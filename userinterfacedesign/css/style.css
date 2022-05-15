@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3{
+    margin: 16px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    color: #000;
+}
+
+p{
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+/* global classes */
+
+.padding{
+    padding:0 15% 50px ;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* Header section */
+
+.header{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+
+/* navigation section */
+
+.brand{
+    display: inline-block;
+}
+
+.navigation{
+    display: inline-block;
+    float: right;
+    clear: right;
+}
+
+.navigation li{
+    display: inline-block;
+    margin: auto;
+    padding: 13px 20px ;
+}
+
+.navigation li a{
+    font-size: 1.2rem;
+}
+
+
+/* landing section */
+
+.landing{
+    padding: 50px 0;
+}
+
+
+/* services section */
+
+#serices{
+    display: flex;
+}
+
+.service-box{
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    margin: 10px;
+    display: inline-flex;
+}
+
+.service-box:nth-child(2){
+    background-color: pink;
+}
+
+.service-box:nth-child(3){
+    background-color: orange;
+}
+
+.service-box:nth-child(4){
+    background-color: purple;
+}
+
+.service-box:nth-child(5){
+    background-color: blue;
+}
+
+
+/* Newsletter Section*/
+
+#newsletter{
+    border: solid 1px;
+    font-size: 1.2rem;
+}
+
+form{
+    padding-top: 30px;
+}
+
+label{
+    margin-right: 50px;
+}
+
+input {
+    border-radius: 10px;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    width: 300px;
+}
+
+::placeholder{
+    font-size: 1.2rem;
+    color:#b8d6d4 ;
+}
+
+button{
+    
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: #333;
+    font-size: 1.2rem;
+    background: #fff;
+    padding: 10px 20px ;
+    border: solid #333 2px;
+    text-decoration: none;
+}
+
+button:hover{
+    
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -moz-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -ms-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -o-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: linear-gradient(to bottom, #ffffff, #d9d9d9);
+  text-decoration: none;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color: #f2f9ff;
+    padding-top: 0;
+}
+
+.footlinks{
+    display: flex;
+}
+
+.foot-column{
+    margin: 20px 100px;
+}
+
+.company-links{
+    margin-left: 0;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer ul li{
+    padding: 10px;
+}
